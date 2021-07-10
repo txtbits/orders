@@ -26,7 +26,7 @@ gradle clean build -x test
 
 After that, you can launch each application executable:
 ```
-java -jar build/libs/orders-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+java -jar build/libs/orders-0.0.1-SNAPSHOT.jar
 ```
 
 * Access to HTML web form for upload csv files: [http://localhost:8080](http://localhost:8080)
@@ -49,3 +49,4 @@ Here are some improvements that could be made in the future:
 * Improve the upload of CSV files asynchronously, mainly for large files.
 * Improve exception handling
 * Separate the file upload process from the rest api into different microservices
+* Dockerize it.
