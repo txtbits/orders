@@ -47,6 +47,7 @@ java -jar build/libs/orders-0.0.1-SNAPSHOT.jar
 # Nice-To-Have
 Here are some improvements that could be made in the future:
 * Improve the upload of CSV files asynchronously, mainly for large files.
-* Improve exception handling
-* Separate the file upload process from the rest api into different microservices
+* Improve exception handling.
+* Separate the file upload process from the rest api into different microservices.
 * Dockerize it.
+* Assessment of the use of Apache Spark depending on the growth of the project.
